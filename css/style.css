@@ -105,11 +105,13 @@ h1 {
     outline: none;
   }
   #player1.active svg g, #player2.active svg g {
-    fill: #fff; }
+    fill: #fff;}
   #player1.active {
-    background: #FFA000; }
+    background: #FFA000;
+    color: #fff; }
   #player2.active {
-    background: #3688C3; }
+    background: #3688C3; 
+    color: #fff; }
 
 .boxes {
   width: 480px;
@@ -138,4 +140,6 @@ h1 {
       background-color: #3688C3;
       background-image: url(../img/x.svg); }
 
-
+ .options {
+  margin: 50px 10px;
+ }
